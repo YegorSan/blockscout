@@ -588,15 +588,8 @@ msgid "Description"
 msgstr ""
 
 #, elixir-format
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/block/overview.html.eex:37
 msgid "Hash"
-=======
-#: lib/block_scout_web/templates/address/overview.html.eex:8
-#: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:166
-#: lib/block_scout_web/templates/api_docs/_eth_rpc_item.html.eex:127
-msgid "Details"
->>>>>>> 36a421b20de2687513514713f24417d52b1fbd44
 msgstr ""
 
 #, elixir-format
@@ -749,13 +742,8 @@ msgid "Fetching tokens..."
 msgstr ""
 
 #, elixir-format
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/block/overview.html.eex:44
 msgid "Parent Hash"
-=======
-#: lib/block_scout_web/templates/admin/dashboard/index.html.eex:16
-msgid "For any existing contracts in the database, insert all ABI entries into the contract_methods table. Use this in case you have verified smart contracts before early March 2019 and you want other contracts with the same functions to show those ABI's as candidate matches."
->>>>>>> 36a421b20de2687513514713f24417d52b1fbd44
 msgstr ""
 
 #, elixir-format
@@ -772,13 +760,8 @@ msgid "From"
 msgstr ""
 
 #, elixir-format
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/block/overview.html.eex:85
 msgid "Position %{index}"
-=======
-#: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:18
-msgid "GET"
->>>>>>> 36a421b20de2687513514713f24417d52b1fbd44
 msgstr ""
 
 #, elixir-format
@@ -1043,16 +1026,9 @@ msgid "Invalid Transaction Hash"
 msgstr ""
 
 #, elixir-format
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/block/overview.html.eex:81
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:38
 msgid "Uncles"
-=======
-#: lib/block_scout_web/templates/tokens/inventory/index.html.eex:16
-#: lib/block_scout_web/templates/tokens/overview/_tabs.html.eex:17
-#: lib/block_scout_web/views/tokens/overview_view.ex:38
-msgid "Inventory"
->>>>>>> 36a421b20de2687513514713f24417d52b1fbd44
 msgstr ""
 
 #, elixir-format
@@ -1426,7 +1402,6 @@ msgid "Show Validator Info"
 msgstr ""
 
 #, elixir-format
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/address/_validator_metadata_modal.html.eex:30
 msgid "Validator Creation Date"
 msgstr ""
@@ -1442,8 +1417,6 @@ msgid "Validator Info"
 msgstr ""
 
 #, elixir-format
-=======
->>>>>>> 36a421b20de2687513514713f24417d52b1fbd44
 #: lib/block_scout_web/templates/block/overview.html.eex:146
 msgid "Block Rewards"
 msgstr ""
