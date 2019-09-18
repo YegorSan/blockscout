@@ -228,3 +228,56 @@ $dashboard-banner-chart-axis-font-color: $dashboard-stats-item-value-color !defa
     }
   }
 }
+.chart-imitation {
+    width: 330px;
+    height: 143px;
+    background-color: white;
+}
+
+.loading { 
+  height: 140px;
+  width: 285px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+@keyframes loading {
+  0% { background-color: $primary; }
+
+  30% { background-color: $secondary; }
+  50% { height: 100px; margin-top: 0px; }
+  80% { background-color: $tertiary;  }
+  100% { background-color: $primary; }
+}
+/*@-moz-keyframes loading {
+  50% { height: 100px; margin-top: 0px; }
+}
+@-o-keyframes loading {
+  50% { height: 100px; margin-top: 0px; }
+}
+@keyframes loading {
+  50% { height: 100px; margin-top: 0px; }
+}*/
+@mixin inner() {
+  height: 10px;
+  width: 30px;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 90px;
+  -webkit-animation: loading 2.5s infinite;
+  -moz-animation: loading 2.5s infinite;
+  -o-animation: loading 2.5s infinite;
+  animation: loading 2.5s infinite;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+ 
+}
+@mixin loading() {
+	@for $i from 1 through 10 {
+		.loading-#{$i} { @include inner(); -webkit-animation-delay: $i/4+s; animation-delay: $i/4+s; }
+	}
+}
+.loading { @include loading(); }
